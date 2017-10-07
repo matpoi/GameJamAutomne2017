@@ -1,6 +1,6 @@
 sceneSetups:
 - path: Assets/Scene1_Mathieu.unity
-  isLoaded: 1
+  isLoaded: 0
   isActive: 0
 - path: Assets/LaserLevel.unity
   isLoaded: 1
