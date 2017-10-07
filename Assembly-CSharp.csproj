@@ -46,11 +46,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Laser_Mover.cs" />
-     <Compile Include="Assets\PlayerController.cs" />
-     <Compile Include="Assets\Tuyau_Normal.cs" />
-     <Compile Include="Assets\Tuyau_Reflet.cs" />
-     <Compile Include="Assets\Tuyau_Tournant.cs" />
+     <Compile Include="Assets\ScriptsJeffrey\BarreChargementReactor.cs" />
+     <Compile Include="Assets\ScriptsJeffrey\Laser_Mover.cs" />
+     <Compile Include="Assets\ScriptsJeffrey\PlayerController.cs" />
+     <Compile Include="Assets\ScriptsJeffrey\Tuyau\Scripts\Tuyau_Normal.cs" />
+     <Compile Include="Assets\ScriptsJeffrey\Tuyau\Scripts\Tuyau_Reflet.cs" />
+     <Compile Include="Assets\ScriptsJeffrey\Tuyau\Scripts\Tuyau_Tournant.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
