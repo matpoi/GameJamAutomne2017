@@ -5,11 +5,11 @@ using UnityEngine;
 public class Laser_Mover : MonoBehaviour {
 	
 	public float speed;
-	private Rigidbody rb;
+	private Rigidbody2D rb;
 
 	// Use this for initialization
 	void Start () {
-		rb = GetComponent<Rigidbody> ();
+		rb = GetComponent<Rigidbody2D> ();
 		rb.velocity = transform.up * speed;
 
 	}
