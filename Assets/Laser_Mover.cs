@@ -10,7 +10,8 @@ public class Laser_Mover : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody2D> ();
-		rb.velocity = transform.up * speed;
+
+			rb.velocity = transform.up * speed;
 
 	}
 

@@ -10,7 +10,7 @@ public class Boundary
 
 public class PlayerController : MonoBehaviour {
 
-	private Boundary boundary;
+	public Boundary boundary;
 	private float waitForFire;
 	public float laserRate;
 	public GameObject laser;
@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour {
 		rb.velocity = movement * speed; 
 
 		rb.position = new Vector3 (
-		//	Mathf.Clamp (rb.position.x, boundary.xMin, boundary.xMax), 0.0f, 0.0f
+			Mathf.Clamp (rb.position.x, boundary.xMin, boundary.xMax), 0.0f, 0.0f
 		);
 	}
 
