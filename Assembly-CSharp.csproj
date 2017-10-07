@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Laser_Mover.cs" />
      <Compile Include="Assets\PlayerController.cs" />
+     <Compile Include="Assets\Tuyau_Tournant.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
